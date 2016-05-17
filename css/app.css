@@ -1,0 +1,61 @@
+
+
+/*NOTICE ME SENPAI*/
+/*///////////////////////////////////////*/
+/*width of nav bar currently set at 250px*/
+/*///////////////////////////////////////*/
+
+/*please do not remove! used by Nina to test nav bar*/
+#nav_bar {
+    width: 250px;
+    height: 100vh;
+    background-color: aqua;
+    opacity: 0.50;
+    position: fixed;
+    left: 0;
+    padding: 0;
+    padding-top: 10vh;
+}
+#label_top {
+    margin-bottom: 20px;   
+}
+.nav_label {
+    text-align: right;
+    padding: 10px;
+    display: block;
+    color: black;
+}
+.label_highlighted {
+    background-color: aliceblue;
+}
+.regular_content {
+    margin-left: 350px;   
+}
+#header {
+    font-size: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.content_container {
+    height: 450px;   
+    border: 2px solid gray;
+    width: 50vw;
+    margin: none;
+}
+@media screen and (max-width: 1100px){
+    #nav_bar { width: 180px; }
+    .regular_content { margin-left: 250px; }
+    #header { font-size: 60px; }
+}
+@media screen and (max-width: 750px){
+    #nav_bar { width: 130px; }
+    .nav_label { font-size: 13px }
+    .regular_content { margin-left: 180px; }
+    #header { font-size: 50px; }
+}
+@media screen and (max-width: 560px){
+    #nav_bar { display: none; }
+    .regular_content { margin-left: 20vh; }
+    #header { font-size: 40px; }
+    .content_container { width: 60vw; }
+}
