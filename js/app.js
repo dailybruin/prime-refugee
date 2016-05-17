@@ -1,4 +1,4 @@
-var numContainers=5;
+var numContainers=7;
 
 $(document).foundation()
 $(document).ready(function(){
