@@ -58,4 +58,66 @@
     .regular_content { margin-left: 20vh; }
     #header { font-size: 40px; }
     .content_container { width: 60vw; }
+    
+/*
+body {
+	font-family: Lora;
 }
+
+h1 {
+	font-family: Lora;
+	font-size: 4em;
+	line-height: 0.8em;
+	margin-bottom: 0.4em;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 3em;
+}
+
+h3 {
+	font-family: Lora;
+	font-size: 1em;
+	font-style: italic;
+}
+
+h4 {
+	font-family: Roboto;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+
+h4 b {
+	font-weight: 500;
+}
+
+.landing {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url('http://dailybruin.com/images/2016/05/prime.refugee.photo1_.jpg') no-repeat scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.landing-content {
+	background-color: rgba(255,255,255,0.4);
+	padding: 2em;
+	margin-top: 25vh;
+}
+
+.landing-content:hover {
+	background-color: rgba(255,255,255,0.5);
+}
+
+.section {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}*/
