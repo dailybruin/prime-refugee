@@ -5,6 +5,51 @@
 /*width of nav bar currently set at 250px*/
 /*///////////////////////////////////////*/
 
+
+
+body {
+	font-family: Lora;
+}
+
+h1 {
+	font-family: Lora;
+	font-size: 4em;
+	line-height: 0.8em;
+	margin-bottom: 0.4em;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 3em;
+}
+
+h3 {
+	font-family: Lora;
+	font-size: 1em;
+	font-style: italic;
+}
+
+h4 {
+	font-family: Roboto;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+
+h4 b {
+	font-weight: 500;
+}
+
+.section {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+
+
 /*please do not remove! used by Nina to test nav bar*/
 #nav_bar {
     width: 250px;
@@ -59,43 +104,8 @@
     #header { font-size: 40px; }
     .content_container { width: 60vw; }
     
+
 /*
-body {
-	font-family: Lora;
-}
-
-h1 {
-	font-family: Lora;
-	font-size: 4em;
-	line-height: 0.8em;
-	margin-bottom: 0.4em;
-	font-weight: 700;
-}
-
-h2 {
-	font-family: Roboto;
-	font-weight: 100;
-	font-size: 3em;
-}
-
-h3 {
-	font-family: Lora;
-	font-size: 1em;
-	font-style: italic;
-}
-
-h4 {
-	font-family: Roboto;
-	font-weight: 300;
-	text-transform: uppercase;
-	font-size: 1.2em;
-	margin-bottom: 0;
-}
-
-h4 b {
-	font-weight: 500;
-}
-
 .landing {
 	position: relative;
 	width: 100%;
@@ -116,8 +126,4 @@ h4 b {
 .landing-content:hover {
 	background-color: rgba(255,255,255,0.5);
 }
-
-.section {
-	margin-top: 3em;
-	margin-bottom: 3em;
-}*/
+*/
