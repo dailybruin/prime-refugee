@@ -59,3 +59,36 @@ h4 b {
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
+
+.img-inline {
+	margin-bottom: 2em;
+}
+
+img {
+	width: 100%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    h1 {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	h1 {
+		font-size: 2em;
+	}
+    .landing-content {
+		background-color: rgba(255,255,255,0.7);
+		margin-top: 50vh;
+		padding: 1em;
+	}
+	h3 {
+		font-size: 0.8em;
+	}
+	h4 {
+		font-size: 0.8em;
+	}
+}
+
