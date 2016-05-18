@@ -105,6 +105,82 @@ a:hover, a:active {
 		font-size: 0.8em;
 	}
 }    
+.pullquote-right {
+	float: right;
+	width: 320px;
+	
+	padding: 5px;
+	margin: 0px -130px 0px 15px;
+	border-left: .5em solid #3F6F45 ;
+	
+}
+.pullquote-right2 {
+	float: right;
+	width: 500px;
+	padding: 5px;
+	margin: 0px -130px 0px 15px;
+	border-left: .5em solid #3F6F45 ;
+	}
+	
+.pullquote-right p, .pullquote-right2 p {
+	color: black;
+	line-height: 130%;
+	font-family: Lora;
+	font-size: 24px;
+	font-style: italic;
+	margin-top: 20px;
+	text-align: left;
+	padding-left: 1em;
+}
+
+  .blockquote {
+    float: left;
+	width: 60%;
+	padding: 5px;
+	padding-left: 50px;
+	padding-top;0px;
+	margin: 0px 30px 0px -100px;
+	border-right: .5em solid #3F6F45 ; }
+	
+	.blockquote2 {
+    float: left;
+	width: 70%;
+	padding: 5px;
+	padding-left: 50px;
+	padding-top;0px;
+	margin: 0px 30px 0px -100px;
+	border-right: .5em solid #3F6F45 ; }
+	
+
+ 
+ .blockquote p  {   
+	color: black;
+	line-height: 130%;
+	font-family: Lora;
+	font-size: 24px;
+	font-style: italic;
+	margin-top: 20px;
+	text-align: right;
+	padding-right: 1em;
+	}
+.blockquote2 p{
+color: black;
+	line-height: 130%;
+	font-family: Lora;
+	font-size: 22px;
+	font-style: italic;
+	margin-top: 20px;
+	text-align: right;
+	padding-right: 1em;
+}
+
+cite {
+  display: block;
+  font-family: Lora;
+  font-size: 20px;
+  color: #8a8a8a; }
+  cite:before {
+    content: '\2014 \0020'; }
 
 
 
@@ -185,3 +261,23 @@ a:hover, a:active {
 		margin: 0 0 1em 0;
 	}
 }
+@media only screen and (max-width: 40em) {
+	.pullquote-right, .pullquote-right2,  .blockquote2, .blockquote,  {
+		width: 100%;
+		display: block;
+		margin: 30px 0px 50px 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		}
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
+	.pullquote-right, .pullquote-right2,  .blockquote2, .blockquote,  {
+		width: 100%;
+		display: block;
+		margin: 30px 0px 50px 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+.pullquote-right p, .pullquote-right2 p, .blockquote p, .blockquote2 p{
+		display: block;
+	}
+
