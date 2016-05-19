@@ -261,67 +261,23 @@ cite {
 		margin: 0 0 1em 0;
 	}
 }
+@media only screen and (max-width: 40em) {
+	.pullquote-right, .pullquote-right2,  .blockquote2, .blockquote,  {
+		width: 100%;
+		display: block;
+		margin: 30px 0px 50px 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		}
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
+	.pullquote-right, .pullquote-right2,  .blockquote2, .blockquote,  {
+		width: 100%;
+		display: block;
+		margin: 30px 0px 50px 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+.pullquote-right p, .pullquote-right2 p, .blockquote p, .blockquote2 p{
+		display: block;
+	}
 
-
-@media screen and (max-width: 560px){
-	
-	.pullquote-right, .pullquote-right2, .blockquote, .blockquote2  {
-		width: 100%;
-		display: block;
-		margin: 30px 0px 50px 0px;
-		
-	}
-	.pullquote-right p, .blockquote p, .blockquote2 p,	.pullquote-right2 p  {
-		display: block;
-	}
-	}
-@media screen and (max-width: 560px) {
-
-	.pullquote-right, .pullquote-right2, .blockquote, .blockquote2 {
-		width: 100%;
-		display: block;
-		margin: 30px 0px 50px 0px;
-		
-	}
-	}
-@media screen and ( max-width: 750px){
-	
-	.pullquote-right, .pullquote-right2, .blockquote, .blockquote2  {
-		width: 100%;
-		display: block;
-		margin: 30px 0px 50px 0px;
-		
-	}
-	.pullquote-right p, .blockquote p, .blockquote2 p,	.pullquote-right2 p  {
-		display: block;
-	}
-	}
-@media screen and (max-width: 750px) {
-
-	.pullquote-right, .pullquote-right2, .blockquote, .blockquote2 {
-		width: 100%;
-		display: block;
-		margin: 30px 0px 50px 0px;
-		
-	}
-	@media screen and ( max-width: 1100px){
-	
-	.pullquote-right, .pullquote-right2, .blockquote, .blockquote2  {
-		width: 100%;
-		display: block;
-		margin: 30px 0px 50px 0px;
-		
-	}
-	.pullquote-right p, .blockquote p, .blockquote2 p,	.pullquote-right2 p  {
-		display: block;
-	}
-	}
-@media screen and (max-width: 1100px) {
-
-	.pullquote-right, .pullquote-right2, .blockquote, .blockquote2 {
-		width: 100%;
-		display: block;
-		margin: 30px 0px 50px 0px;
-		
-	}
-	}
