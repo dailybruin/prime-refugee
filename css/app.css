@@ -1,16 +1,5 @@
-/*NOTICE ME SENPAI*/
-/*///////////////////////////////////////*/
-/*width of nav bar currently set at 250px*/
-/*///////////////////////////////////////*/
-
-
-
 body {
 	font-family: Lora;
-}
-
-.row {
-	max-width: 90rem;
 }
 
 h1 {
@@ -46,11 +35,6 @@ h4 b {
 	font-weight: 500;
 }
 
-img {
-	margin-left: 250px;
-	width: calc(100% - 250px);
-}
-
 .img-inline {
 	width: 70%;
 	float: left;
@@ -62,7 +46,7 @@ img {
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: url('http://dailybruin.com/images/2016/05/prime.refugee.photo1_.jpg') no-repeat scroll;
+	background: url('http://dailybruin.com/images/2016/05/prime.coding.photo1_1.jpg') no-repeat scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -105,179 +89,5 @@ a:hover, a:active {
 		font-size: 0.8em;
 	}
 }    
-.pullquote-right {
-	float: right;
-	width: 320px;
-	
-	padding: 5px;
-	margin: 0px -130px 0px 15px;
-	border-left: .5em solid #3F6F45 ;
-	
-}
-.pullquote-right2 {
-	float: right;
-	width: 500px;
-	padding: 5px;
-	margin: 0px -130px 0px 15px;
-	border-left: .5em solid #3F6F45 ;
-	}
-	
-.pullquote-right p, .pullquote-right2 p {
-	color: black;
-	line-height: 130%;
-	font-family: Lora;
-	font-size: 24px;
-	font-style: italic;
-	margin-top: 20px;
-	text-align: left;
-	padding-left: 1em;
-}
 
-  .blockquote {
-    float: left;
-	width: 60%;
-	padding: 5px;
-	padding-left: 50px;
-	padding-top;0px;
-	margin: 0px 30px 0px -100px;
-	border-right: .5em solid #3F6F45 ; }
-	
-	.blockquote2 {
-    float: left;
-	width: 70%;
-	padding: 5px;
-	padding-left: 50px;
-	padding-top;0px;
-	margin: 0px 30px 0px -100px;
-	border-right: .5em solid #3F6F45 ; }
-	
-
- 
- .blockquote p  {   
-	color: black;
-	line-height: 130%;
-	font-family: Lora;
-	font-size: 24px;
-	font-style: italic;
-	margin-top: 20px;
-	text-align: right;
-	padding-right: 1em;
-	}
-.blockquote2 p{
-color: black;
-	line-height: 130%;
-	font-family: Lora;
-	font-size: 22px;
-	font-style: italic;
-	margin-top: 20px;
-	text-align: right;
-	padding-right: 1em;
-}
-
-cite {
-  display: block;
-  font-family: Lora;
-  font-size: 20px;
-  color: #8a8a8a; }
-  cite:before {
-    content: '\2014 \0020'; }
-
-
-
-/*please do not remove! used by Nina to test nav bar*/
-#nav_bar {
-    width: 250px;
-    height: 100vh;
-    background-color: #f6f6f6;
-    position: fixed;
-    left: 0;
-    padding: 0;
-    padding-top: 10vh;
-    font-family: Roboto;
-	font-weight: 100;
-}
-#label_top {
-    margin-bottom: 20px; 
-    z-index: 1;  
-}
-#label_top img {
-	margin:0;
-	width:100px;
-}
-.nav_label {
-    text-align: right;
-    padding: 10px;
-    display: block;
-    color: black;
-}
-.label_highlighted {
-    background-color: #E9F0EA;
-    border-right: 3px solid #3F6F45;
-}
-.regular_content {
-    margin-left: 350px;   
-}
-#header {
-    font-size: 70px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.content_container {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 50vw;
-    margin: none;
-}
-@media screen and (max-width: 1100px){
-    #nav_bar { width: 180px; }
-    .regular_content { margin-left: 250px; }
-    #header { font-size: 60px; }
-    img {
-		margin-left: 180px;
-		width: calc(100% - 180px);
-	}
-}
-@media screen and (max-width: 750px){
-    #nav_bar { width: 130px; }
-    .nav_label { font-size: 13px }
-    .regular_content { margin-left: 180px; }
-    #header { font-size: 50px; }
-    img {
-		margin-left: 130px;
-		width: calc(100% - 130px);
-	}
-}
-@media screen and (max-width: 560px){
-    #nav_bar { display: none; }
-    .regular_content { margin:0 auto 0 auto; }
-    #header { font-size: 40px; }
-    .content_container { width: 90%; }
-    img {
-		margin-left: 0;
-		width: 100%;
-	}
-	.img-inline {
-		width: 100%;
-		margin: 0 0 1em 0;
-	}
-}
-@media only screen and (max-width: 40em) {
-	.pullquote-right, .pullquote-right2,  .blockquote2, .blockquote,  {
-		width: 100%;
-		display: block;
-		margin: 30px 0px 50px 0px;
-		border-top: 1px solid black;
-		border-bottom: 1px solid black;
-		}
-@media only screen and (min-width: 40.063em) and (max-width: 64em){
-	.pullquote-right, .pullquote-right2,  .blockquote2, .blockquote,  {
-		width: 100%;
-		display: block;
-		margin: 30px 0px 50px 0px;
-		border-top: 1px solid black;
-		border-bottom: 1px solid black;
-	}
-.pullquote-right p, .pullquote-right2 p, .blockquote p, .blockquote2 p{
-		display: block;
-	}
 
