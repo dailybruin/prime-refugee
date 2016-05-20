@@ -24,6 +24,12 @@ $(document).ready(function(){
             }
         }
     }); 
+    $(".nav_label").click(function(){
+        $("html, body").animate({
+            scrollTop: $("#container_"+$(this).attr('id').charAt(6)).offset().top
+        }, 500);
+    });
+     
 });
 
 var removeHighlight=function(){
