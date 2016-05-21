@@ -83,6 +83,14 @@ a:hover, a:active {
 	color: #3F6F45;
 }
 
+footer {
+	text-transform: uppercase;
+	font-family: Roboto;
+	font-weight: 100;
+	margin: 2em 0 3em 0;
+	border-top: 1px solid #666;
+}
+
 @media only screen and (max-width: 900px) {
     h1 {
 		font-size: 3em;
@@ -196,8 +204,15 @@ cite {
     font-family: Roboto;
 	font-weight: 100;
 }
+#nav_bar b {
+	text-align: right;
+	display: block;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin-bottom: 20px; 
+	font-family: Lora;
+}
 #label_top {
-    margin-bottom: 20px; 
     z-index: 1;  
 }
 #label_top img {
@@ -206,7 +221,7 @@ cite {
 }
 .nav_label {
     text-align: right;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     display: block;
     color: black;
 }
